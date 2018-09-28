@@ -19,7 +19,6 @@ set ignorecase
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'The-NERD-Tree'
-Plugin 'taglist.vim'
 Plugin 'AutoClose'
 Plugin 'Tagbar'
 Plugin 'shell.vim'
