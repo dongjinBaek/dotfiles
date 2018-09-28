@@ -1,5 +1,5 @@
-ln -sf ~/dotfiles/vimrc ~/.vimrc
-ln -sf ~/dotfiles/zshrc ~/.zshrc
+chmod +x init_vim.sh
+./init_vim.sh
 
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim +PluginInstall +qall
+chmod +x init_zsh.sh
+./init_zsh.sh
