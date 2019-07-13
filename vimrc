@@ -18,6 +18,7 @@ set ignorecase
 "plugins
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+Plugin 'dracula/vim'
 Plugin 'The-NERD-Tree'
 Plugin 'AutoClose'
 Plugin 'Tagbar'
@@ -28,6 +29,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'shime/vim-livedown'
 call vundle#end()
+
+color dracula
 
 let g:airline_theme='bubblegum'
 let g:syntastic_cpp_compiler_options = '-std=c++11'

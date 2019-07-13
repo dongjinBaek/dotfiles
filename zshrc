@@ -2,7 +2,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="avit"
 
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
@@ -15,8 +15,5 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-autoload -U promptinit; promptinit
-prompt pure
 
 # User configuration
